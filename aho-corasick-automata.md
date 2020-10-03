@@ -18,7 +18,7 @@ Given a text txt[0..n-1] and a pattern pat[0..m-1], write a function search(char
 
 ### Matching
 
-![image alt](https://miro.medium.com/max/700/1*zih18lLx2ibPlf1FgoNj-A.gif =600x)
+![image alt](https://miro.medium.com/max/700/1*zih18lLx2ibPlf1FgoNj-A.gif)
 
 - Complexity: $O(n)$
 
@@ -28,7 +28,7 @@ Given a text txt[0..n-1] and a pattern pat[0..m-1], write a function search(char
 
 ## Trie
 
-![image alt](https://i.imgur.com/5JsVBeY.png =600x)
+![image alt](https://i.imgur.com/5JsVBeY.png)
 
 
 ### Benefits
@@ -59,7 +59,7 @@ If we try to perform a transition using a letter, and there is no corresponding 
 
 A suffix link for a vertex $p$ is a edge that points to the longest proper suffix of the string corresponding to the vertex $p$. 
 
-![](https://i.imgur.com/JSmhn7a.png =600x)
+![](https://i.imgur.com/JSmhn7a.png)
 
 
 #### Constructing suffix links
@@ -96,7 +96,7 @@ int go(int v, char ch) {
 
 ### Output links
 
-![](https://i.imgur.com/0mg5nzH.png =600x)
+![](https://i.imgur.com/0mg5nzH.png)
 
 ### Matching
 
